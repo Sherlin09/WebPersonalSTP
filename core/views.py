@@ -30,3 +30,6 @@ def contact(request):
             <li><a href="sherlintp09@gmail.com">Email</a></li>
             <li><a href="https://github.com/Sherlin09?tab=repositories">Github</a></li>
     """)
+
+def home(request):
+    return render(request, "core/home.html")
